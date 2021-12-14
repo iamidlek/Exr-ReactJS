@@ -2,10 +2,15 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
+import { QueryClient, QueryClientProvider } from "react-query";
+
+const queryClient = new QueryClient();
 
 ReactDOM.render(
-  <ThemeProvider theme={theme}>
-    <App />
-  </ThemeProvider>,
+  <QueryClientProvider client={queryClient}>
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
+  </QueryClientProvider>,
   document.getElementById("root")
 );
