@@ -6,7 +6,8 @@ function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/:coinId" element={<Coin />} />
+        {/* /:coinId 뒤에 /* 는 중첩을 위함 */}
+        <Route path="/:coinId/*" element={<Coin />} />
         <Route path="/" element={<Coins />} />
       </Routes>
     </BrowserRouter>
