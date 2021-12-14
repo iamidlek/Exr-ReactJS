@@ -3,6 +3,7 @@ import React, { useState } from "react";
 export const TypescriptForm = () => {
   const [value, setValue] = useState("");
   // onchange 함수가 HTML의 input요소에서 발생할 것을 알려줌
+  // onChange onInput onInvalid onReset onSubmit는 FormEvent
   const onChange = (event: React.FormEvent<HTMLInputElement>) => {
     // reactJS 에서는 target을 currentTarget으로 이용하게 함
     const {
