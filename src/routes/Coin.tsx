@@ -15,7 +15,6 @@ const Title = styled.h1`
 const Main = styled.div`
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   border-radius: 10px;
   color: ${(props) => props.theme.textColor};
@@ -35,11 +34,11 @@ const Container = styled.div`
 
 const Header = styled.header`
   height: 15vh;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 `;
 
 const Overview = styled.div`
