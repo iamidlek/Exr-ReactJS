@@ -4,7 +4,7 @@ import Coins from "./routes/Coins";
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         {/* /:coinId 뒤에 /* 는 중첩을 위함 */}
         <Route path="/:coinId/*" element={<Coin />} />
