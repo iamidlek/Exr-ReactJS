@@ -1,8 +1,8 @@
-# React Masterclass
+# React Masterclass01
 
-Learn and dominate the React ecosystem once and for all.
+- Coin Tracker
 
-### Using:
+## Used
 
 - Styled Components
 - Typescript
@@ -10,5 +10,3 @@ Learn and dominate the React ecosystem once and for all.
 - React Query
 - React Router DOM
 - Apex Charts
-- React Spring
-- Firebase
