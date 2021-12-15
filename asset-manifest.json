@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Exr-ReactMclass-coin/static/js/main.38a6b75b.chunk.js",
+    "main.js.map": "/Exr-ReactMclass-coin/static/js/main.38a6b75b.chunk.js.map",
+    "runtime-main.js": "/Exr-ReactMclass-coin/static/js/runtime-main.ca351f88.js",
+    "runtime-main.js.map": "/Exr-ReactMclass-coin/static/js/runtime-main.ca351f88.js.map",
+    "static/js/2.dd1c08c9.chunk.js": "/Exr-ReactMclass-coin/static/js/2.dd1c08c9.chunk.js",
+    "static/js/2.dd1c08c9.chunk.js.map": "/Exr-ReactMclass-coin/static/js/2.dd1c08c9.chunk.js.map",
+    "index.html": "/Exr-ReactMclass-coin/index.html",
+    "static/js/2.dd1c08c9.chunk.js.LICENSE.txt": "/Exr-ReactMclass-coin/static/js/2.dd1c08c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca351f88.js",
+    "static/js/2.dd1c08c9.chunk.js",
+    "static/js/main.38a6b75b.chunk.js"
+  ]
+}
